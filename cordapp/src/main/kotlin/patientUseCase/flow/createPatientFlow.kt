@@ -12,7 +12,7 @@ import net.corda.core.transactions.TransactionBuilder
 import net.corda.core.utilities.ProgressTracker
 import org.slf4j.LoggerFactory
 import patientUseCase.Model.Patient
-import patientUseCase.contract.PatientContract
+import patientUseCase.contract.PatientContract.PatientContract
 
 
 @CordaSerializable

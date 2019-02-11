@@ -1,12 +1,11 @@
-package newFNOLUseCase.contract
-
+package patientUseCase.contract.NewPatientContract
 
 import patientUseCase.State.PatientState
 import net.corda.core.contracts.*
 import net.corda.core.transactions.LedgerTransaction
 import patientUseCase.Model.NewPatient
 import patientUseCase.State.NewPatientState
-import patientUseCase.contract.PatientContract
+import patientUseCase.contract.PatientContract.PatientContract
 
 
 // *****************
@@ -18,7 +17,7 @@ import patientUseCase.contract.PatientContract
 open class NewPatientContract : UpgradedContract<PatientState,NewPatientState>{
 
     companion object {
-        const val PROGRAM_ID: ContractClassName = "patientUseCase.contract.NewPatientContract"
+        const val PROGRAM_ID: ContractClassName = "patientUseCase.contract.PatientContract.NewPatientContract"
     }
 
     override  val legacyContract:String = PatientContract::class.java.name
