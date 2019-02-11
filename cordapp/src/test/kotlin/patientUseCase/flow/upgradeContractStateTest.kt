@@ -4,7 +4,6 @@ import net.corda.core.contracts.StateAndRef
 import net.corda.core.flows.ContractUpgradeFlow
 import net.corda.core.node.services.queryBy
 import net.corda.core.utilities.getOrThrow
-import newFNOLUseCase.contract.NewPatientContract
 import org.junit.After
 import org.junit.Before
 import org.junit.Test
@@ -12,6 +11,8 @@ import patientUseCase.Model.Patient
 import patientUseCase.PatientSchema.Address
 import patientUseCase.State.PatientState
 import patientUseCase.TestUtils
+import patientUseCase.contract.NewPatientContract.NewPatientContract
+import patientUseCase.contract.PatientContract.PatientContract
 
 class upgradeContractStateTest: TestUtils.TestUtils {
 
@@ -29,6 +30,10 @@ class upgradeContractStateTest: TestUtils.TestUtils {
     @Test
 
     fun authorizeAndInitiateContractUpgrade(){
+
+        System.out.println("STRINGHELLO");
+        System.out.println(NewPatientContract::class.qualifiedName)
+        System.out.println(PatientContract::class.qualifiedName)
 
         // create old states
         val address = Address()

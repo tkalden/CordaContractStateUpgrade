@@ -1,20 +1,674 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$USER_HOME$/ContractStateUpgrade" value="PREVIEW" />
-        <entry key="$USER_HOME$/Desktop/fnolCorda" value="PREVIEW" />
-        <entry key="$USER_HOME$/IdeaProjects/fnolCorda" value="PREVIEW" />
-        <entry key="$USER_HOME$/Riskblock/fnolCorda" value="PREVIEW" />
-      </map>
+  <component name="ChangeListManager">
+    <list default="true" id="5f2de3ec-b7ca-45a4-a5f8-ad1c7e7abcaf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin-build/version.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/ContractStateUpgrade-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/libs/cordapp-2.1.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/build/libs/cordapp-2.1.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/libs/fnol-cordapp-2.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-0110b4fb-ea09-41e4-ba25-5cfbd007a628.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-16e94a67-f79e-4d79-990d-1ea2cccedd3f.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-1d831a0e-cb04-45a3-be5a-39921b3bbf0f.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-250ce2e9-fa32-44dc-bf51-f4bc5dfab7b7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-48ea966d-f3e0-477c-96d6-57fd48357492.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-4b8c3a96-e7f9-4c1b-8ec2-16761ef31e9f.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-50713915-1948-464f-b14a-8145503b171c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-62e5f7f2-07ba-46fa-acf8-7f9a151929b9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-682b32d5-12ff-47f2-b71e-aca2b09b3fea.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-77bf0182-450a-4ce6-9802-8fb2fbc1eec6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-78244e2c-1fb5-44bc-ac63-ede76e62bc73.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-96198813-7fdb-4b0b-9861-c947af482337.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-9e53a470-4c2a-4bd9-9124-6cd77988583b.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-a1f34b8c-eaf6-406f-940b-54cb7b3e2387.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-a220bc2d-2dac-439d-84b4-4826504853a6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-a29382aa-5e10-4277-b933-67f829f3191e.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-ac515867-25ab-46eb-a09a-bad99ce0bbed.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-ae1b1ae0-08b8-42ae-8919-e25bfbc1328d.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-b36a9ba6-21e2-4a00-82da-a9551b1e37f7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-bc99b0bd-eb17-4003-aa82-2d26664ecb4d.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-c67793de-9cf2-4fff-be80-fe84034cce75.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-cb125b65-54e6-4c77-be75-1b922f2bbbfd.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-cc19c879-2170-489a-a000-12f48b968140.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-d7447345-8fc3-4f55-904e-4dad44804487.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-e3df1f1d-28b1-467f-bff0-949e740aa9d6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-e4f16aab-2c00-4fec-adc1-6028d65cd3e1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-ebcbd338-1d5a-4bff-b2d1-dd86ff2f12b1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-f0f8ffea-37b4-4f89-b29f-bb35feaeb879.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-f41144aa-6961-46cb-8790-1f6a0db9b450.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-fa3c51cc-5964-475e-a5a3-a908a863cda6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-fcbcdaa0-191d-494c-b6ea-3d3f1cf9533e.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/fnolUseCase-fdc1ecce-5a47-41a1-8584-f91478b55734.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-027708dd-8e72-4606-96cf-10a93cec513b.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-0446ded3-2ec4-43e1-b6c3-4fea547dc1d5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-04be87c4-e66c-4e39-a276-819a41e69df5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-0710f3b3-d8ae-4ed5-8397-fb54b6e98cb8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-0c69d640-002a-4131-9a23-283b9f395439.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-0e1818b9-7ef8-48ff-a125-92c08d03e89f.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-138bddcf-0ff2-47dc-900e-bce6fd8a1a40.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-16099aaa-391d-47fe-8e46-09a344b140ea.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-166bb323-918a-4f58-8732-c2ab3c81a693.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-1d10654f-db08-4a13-934c-d39c2c1145b8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-1f477b16-afd6-4a11-b37d-ae065710fcbb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-1fa1fd46-2c75-4f52-9696-b3315bf963a1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-1fadb371-02dd-48ce-bf4c-ddc6c096ed9c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-202bf5fb-054c-47d8-8b0f-a606f8e53f9a.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-219d942a-e1d9-4390-a1d1-359519749fce.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-2717215f-a225-4f94-9b5f-eda1bd041447.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-35000739-6f2c-493b-a717-94e6ff2ff251.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-3ace0389-6fa6-4a5d-8691-eca400ef578d.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-435d5d13-364e-4310-ad18-823072b1c9e3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-4cc0a0d6-af40-420a-92b8-70b2b66bd113.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-5848de06-2ea7-4c8b-a95e-59142c341f8b.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-5a795569-0136-483b-badc-fde27c0530fa.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-5ea65b2d-f3b5-4d81-a562-74ee856a8017.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-6175d5c8-4f5f-431d-866c-82900ecddd7b.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-655a89a6-3be8-44e9-8044-482271b2a3ad.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-668a8093-a00c-4b46-add2-898bcf55c2a0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-67dff02e-8838-4674-a3dc-6eadb0efd2c8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-68783db0-95e2-4f98-b530-84d1c7275be7.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-70fbdccb-638c-4de0-9c0b-f2d75f8f3d56.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-7d8cbadf-a3ce-4a27-a9b1-e4def47b8414.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-8407ace4-966b-4034-b161-403b6728ad7c.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-8409d199-c57d-4bf9-83a6-6970a89d361a.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-a08af0f9-419f-43d7-b222-6fc432e2ea4a.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-bc754b52-a247-4525-bc74-7d5cb5f9da22.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-c06d3f2f-d77c-429f-bba1-6a05ed8ba6ba.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-c267db12-ead7-4437-99fb-60afbfd64fdd.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-c3b650ed-7913-425b-a5c6-35c7df48bc8d.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-c3ca71cb-53b0-4f78-be4a-1dfb7c7848b0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-d06a5e55-c346-43a8-b0c4-ebbd04f5b355.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-d1847d64-6759-4075-97f9-41c9ddd8c1b3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-d7b541e2-33e2-4426-a85b-beacbfe18f02.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-dc65e15d-b285-40b0-b4c9-1efa83069363.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-ddc8814e-ed81-485e-b930-3765be0cc966.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-e483af33-33c3-4222-a8cf-f04dc66a61ff.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-e8a9f74e-6328-4eee-9bb1-929646bd3554.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-edccf739-0445-4910-8849-b6f73060a274.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-f1513f46-0c75-414c-8f7f-447f3b3e72fb.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/build/tmp/generated-test-cordapps/patientUseCase-f60bbaeb-724e-4cd6-91d2-e86e6c476a18.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/newFNOLUseCase/contract/NewPatientContract$Commands$Create.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/newFNOLUseCase/contract/NewPatientContract$Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/newFNOLUseCase/contract/NewPatientContract$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/newFNOLUseCase/contract/NewPatientContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/Initiator.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/Initiator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/Model/NewPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/Model/NewPatient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/Model/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/Model/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/NewPatientSchema.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/NewPatientSchema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchema.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchema.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchemaV1$Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchemaV1$Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchemaV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchemaV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchemaV2$NewPatient.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchemaV2$NewPatient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchemaV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/PatientSchema/PatientSchemaV2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/Responder.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/Responder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/State/NewPatientState.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/State/NewPatientState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/State/PatientState.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/State/PatientState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/TemplateData.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/TemplateData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/TemplateSerializationWhitelist.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/TemplateSerializationWhitelist.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/contract/PatientContract$Commands$Create.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/contract/PatientContract$Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/contract/PatientContract$Companion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/contract/PatientContract.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/PatientCreateFlowResponder$call$signedTransactionFlow$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/PatientCreateFlowResponder$call$signedTransactionFlow$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/PatientCreateFlowResponder.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/PatientCreateFlowResponder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$FINALISING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$FINALISING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$GATHERING_SIGS.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$GATHERING_SIGS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$GENERATING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$GENERATING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$SIGNING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$SIGNING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$VERIFYING_TRANSACTION.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion$VERIFYING_TRANSACTION.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/production/classes/patientUseCase/flow/createPatientFlow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/TestUtils$Companion$DummyCommand.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/TestUtils$Companion$DummyCommand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/TestUtils$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/TestUtils$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/TestUtils$TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/TestUtils$TestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/TestUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/TestUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/flow/PatientCreateFlowTest$flowReturnsPatientCreateWithOtherKnownParties$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/flow/PatientCreateFlowTest$flowReturnsPatientCreateWithOtherKnownParties$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/flow/PatientCreateFlowTest$flowReturnsPatientCreateWithOtherKnownParties$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/flow/PatientCreateFlowTest$flowReturnsPatientCreateWithOtherKnownParties$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/flow/PatientCreateFlowTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/flow/PatientCreateFlowTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/flow/upgradeContractStateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/out/test/classes/patientUseCase/flow/upgradeContractStateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/NewPatientContract.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/NewPatientContract.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/PatientContract.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/PatientContract.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/flow/createPatientFlow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/flow/createPatientFlow.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/src/test/kotlin/patientUseCase/TestUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/src/test/kotlin/patientUseCase/TestUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cordapp/src/test/kotlin/patientUseCase/flow/upgradeContractStateTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/cordapp/src/test/kotlin/patientUseCase/flow/upgradeContractStateTest.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/cordapp/.gradle/" />
+    <ignored path="$PROJECT_DIR$/cordapp/build/" />
+    <ignored path="$PROJECT_DIR$/cordapp/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/NewPatientContract.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="94" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
+              <folding>
+                <element signature="e#52#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/PatientContract.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="106" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/corda-3.0/314aa69908402c0c3214cdfca8d0dac1c3dd41ba/corda-core-corda-3.0-sources.jar!/net/corda/core/flows/ContractUpgradeFlow.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cordapp/build.gradle">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>newFN</find>
+      <find>authori</find>
+      <find>HELLO</find>
+      <find>auth</find>
+    </findStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase</dir>
+      <dir>$PROJECT_DIR$/cordapp/src/main/kotlin</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/flow/createPatientFlow.kt" />
+        <option value="$PROJECT_DIR$/cordapp/src/test/kotlin/patientUseCase/TestUtils.kt" />
+        <option value="$PROJECT_DIR$/cordapp/src/test/kotlin/patientUseCase/flow/upgradeContractStateTest.kt" />
+        <option value="$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/PatientContract.kt" />
+        <option value="$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/NewPatientContract.kt" />
+      </list>
     </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="953" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="patientUseCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="patientUseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="contract" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="patientUseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="contract" type="462c0819:PsiDirectoryNode" />
+              <item name="NewPatientContract" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="patientUseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="contract" type="462c0819:PsiDirectoryNode" />
+              <item name="NewPatientContract" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+              <item name="Commands" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="patientUseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="patientUseCase" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="patientUseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="flow" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="patientUseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="TestUtils" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+            </path>
+            <path>
+              <item name="CordaContractStateUpgrade" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CordaContractStateUpgrade" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="cordapp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="patientUseCase" type="462c0819:PsiDirectoryNode" />
+              <item name="TestUtils" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+              <item name="TestUtils" type="2c5a2ef7:KtClassOrObjectTreeNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549922748622" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="upgradeContractStateTest.authorizeAndInitiateContractUpgrade" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="com.riskblock.fnol.cordapp.cordapp.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="patientUseCase.flow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="patientUseCase.flow" />
+      <option name="MAIN_CLASS_NAME" value="patientUseCase.flow.upgradeContractStateTest" />
+      <option name="METHOD_NAME" value="authorizeAndInitiateContractUpgrade" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -javaagent:$PROJECT_DIR$/cordapp/lib/quasar.jar" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.upgradeContractStateTest.authorizeAndInitiateContractUpgrade" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5f2de3ec-b7ca-45a4-a5f8-ad1c7e7abcaf" name="Default Changelist" comment="" />
+      <created>1549920936023</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549920936023</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="upgradeContractStateTest_authorizeAndInitiateContractUpgrade - 2019.02.11 at 16h 40m 08s.xml">
+      <configuration name="upgradeContractStateTest.authorizeAndInitiateContractUpgrade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="upgradeContractStateTest_authorizeAndInitiateContractUpgrade - 2019.02.11 at 16h 40m 37s.xml">
+      <configuration name="upgradeContractStateTest.authorizeAndInitiateContractUpgrade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="upgradeContractStateTest_authorizeAndInitiateContractUpgrade - 2019.02.11 at 16h 44m 43s.xml">
+      <configuration name="upgradeContractStateTest.authorizeAndInitiateContractUpgrade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="upgradeContractStateTest_authorizeAndInitiateContractUpgrade - 2019.02.11 at 16h 49m 49s.xml">
+      <configuration name="upgradeContractStateTest.authorizeAndInitiateContractUpgrade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="upgradeContractStateTest_authorizeAndInitiateContractUpgrade - 2019.02.11 at 16h 51m 54s.xml">
+      <configuration name="upgradeContractStateTest.authorizeAndInitiateContractUpgrade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="upgradeContractStateTest_authorizeAndInitiateContractUpgrade - 2019.02.11 at 16h 55m 40s.xml">
+      <configuration name="upgradeContractStateTest.authorizeAndInitiateContractUpgrade" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="upgradeContractStateTest_authorizeAndInitiateContractUpgrade - 2019.02.11 at 16h 59m 14s.xml">
+      <configuration name="upgradeContractStateTest.authorizeAndInitiateContractUpgrade" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="953" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" weight="0.329849" />
+      <window_info anchor="bottom" id="Terminal" weight="0.329849" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" weight="0.329849" />
+      <window_info anchor="bottom" id="Messages" weight="0.329849" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329849" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39953542" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/corda-3.0/314aa69908402c0c3214cdfca8d0dac1c3dd41ba/corda-core-corda-3.0-sources.jar!/net/corda/core/internal/ContractUpgradeUtils.kt</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cordapp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/corda-3.0/314aa69908402c0c3214cdfca8d0dac1c3dd41ba/corda-core-corda-3.0-sources.jar!/net/corda/core/flows/ContractUpgradeFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cordapp/src/test/kotlin/patientUseCase/flow/PatientCreateFlowTests.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cordapp/src/test/kotlin/patientUseCase/flow/upgradeContractStateTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="38" lean-forward="true" selection-start-line="35" selection-start-column="38" selection-end-line="35" selection-end-column="38" />
+          <folding>
+            <element signature="e#29#561#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/flow/createPatientFlow.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="52" column="28" lean-forward="true" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
+          <folding>
+            <element signature="e#29#605#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cordapp/src/test/kotlin/patientUseCase/TestUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="26" column="138" selection-start-line="26" selection-start-column="138" selection-end-line="26" selection-end-column="138" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/corda-3.0/314aa69908402c0c3214cdfca8d0dac1c3dd41ba/corda-core-corda-3.0-sources.jar!/net/corda/core/transactions/TransactionBuilder.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="142" selection-start-line="142" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.corda/corda-core/corda-3.0/314aa69908402c0c3214cdfca8d0dac1c3dd41ba/corda-core-corda-3.0-sources.jar!/net/corda/core/internal/ContractUpgradeUtils.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="77" selection-start-line="20" selection-start-column="77" selection-end-line="20" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/PatientContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cordapp/src/main/kotlin/patientUseCase/contract/NewPatientContract.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="94" selection-start-line="19" selection-start-column="94" selection-end-line="19" selection-end-column="94" />
+          <folding>
+            <element signature="e#52#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>test|cordapp|cordapp</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4455814" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

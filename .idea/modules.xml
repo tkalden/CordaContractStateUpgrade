@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.riskblock.fnol.cordapp.CordaContractStateUpgrade.iml" filepath="$PROJECT_DIR$/.idea/modules/com.riskblock.fnol.cordapp.CordaContractStateUpgrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.riskblock.fnol.cordapp.CordaContractStateUpgrade.main.iml" filepath="$PROJECT_DIR$/.idea/modules/com.riskblock.fnol.cordapp.CordaContractStateUpgrade.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/com.riskblock.fnol.cordapp.CordaContractStateUpgrade.test.iml" filepath="$PROJECT_DIR$/.idea/modules/com.riskblock.fnol.cordapp.CordaContractStateUpgrade.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp/com.riskblock.fnol.cordapp.cordapp.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp/com.riskblock.fnol.cordapp.cordapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp/com.riskblock.fnol.cordapp.cordapp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp/com.riskblock.fnol.cordapp.cordapp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cordapp/com.riskblock.fnol.cordapp.cordapp.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cordapp/com.riskblock.fnol.cordapp.cordapp.test.iml" />
+    </modules>
+  </component>
+</project>

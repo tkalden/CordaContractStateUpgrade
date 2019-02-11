@@ -24,7 +24,7 @@ class TestUtils {
 
         class DummyCommand : TypeOnlyCommandData()
 
-        var ledgerServices = MockServices(listOf("patientUseCase"))
+        var ledgerServices = MockServices(listOf("patientUseCase", "patientUseCase.contract.PatientContract", "patientUseCase.contract.NewPatientContract"))
 
 
         //********************************************  STARTING NODES *************************************************

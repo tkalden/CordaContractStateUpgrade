@@ -1,4 +1,4 @@
-package patientUseCase.contract
+package patientUseCase.contract.PatientContract
 
 
 import patientUseCase.State.PatientState
@@ -13,7 +13,7 @@ import net.corda.core.transactions.LedgerTransaction
 
 open class PatientContract : Contract {
     companion object {
-        const val PROGRAM_ID: ContractClassName = "patientUseCase.contract.PatientContract"
+        const val PROGRAM_ID: ContractClassName = "patientUseCase.contract.PatientContract.PatientContract"
     }
     // Used to indicate the transaction's intent.
     interface Commands : CommandData {
