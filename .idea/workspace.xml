@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/ContractStateUpgrade" value="PREVIEW" />
+        <entry key="$USER_HOME$/Desktop/fnolCorda" value="PREVIEW" />
+        <entry key="$USER_HOME$/IdeaProjects/fnolCorda" value="PREVIEW" />
+        <entry key="$USER_HOME$/Riskblock/fnolCorda" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
